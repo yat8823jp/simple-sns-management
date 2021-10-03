@@ -28,6 +28,10 @@ SNSのアカウントを入力して保存
 
 ## Changelog
 
+= 1.0.1 =
+
+* 2021-10-02 Typing error correction
+
 = 1.0.0 =
 
 * 2021-09-29 First release

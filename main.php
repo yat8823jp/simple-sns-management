@@ -3,7 +3,7 @@
  * Plugin Name: Simple SNS Account Management
  * Plugin URI: https://github.com/yat8823jp/simple-sns-management
  * Description: A simple plugin that just manages your SNS account
- * Version: 1.0.0
+ * Version: 1.0.1
  * Author: YAT
  * Author URI: //wp.yat-net.com
  * Text Domain: simple-sns-management
