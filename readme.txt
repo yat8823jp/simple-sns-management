@@ -23,5 +23,11 @@ Account ID and URL can be obtained on the front side.
 
 == Changelog ==
 
+= 1.1.0 =
+* 2021-10-07 add ssam_account_arrangement()
+
+= 1.0.1 =
+* 2021-10-02 Typing error correction
+
 = 1.0.0 =
 * 2021-09-29 First release

@@ -1,9 +1,9 @@
 <?php
 /*
- * Plugin Name: Simple SNS Account Management
- * Plugin URI: https://github.com/yat8823jp/simple-sns-management
+ * Plugin Name: Sinmple SNS Account Management
+ * Plugin URI:
  * Description: A simple plugin that just manages your SNS account
- * Version: 1.0.1
+ * Version: 1.0.0
  * Author: YAT
  * Author URI: //wp.yat-net.com
  * Text Domain: simple-sns-management
@@ -57,7 +57,7 @@ function ssam_regist () {
 				</tr>
 				<tr valign="top">
 					<th scope="row"><label for="instagram">Instagram<br>
-					<span style="color: #6e6e6e; font-size: 12px;">※ <?php _e( 'Please enter your Instagram.', 'ssam_register_sns_settings' ); ?> </span></label></th>
+					<span style="color: #6e6e6e; font-size: 12px;">※ <?php _e( 'Please enter your Instagram ID.', 'ssam_register_sns_settings' ); ?> </span></label></th>
 					<td>
 						<input type="text" name="instagram" value="<?php echo esc_attr( get_option( 'instagram' ) ); ?>">
 						<span style="color: #333;"><?php _e( 'example）https://www.instagram.com/**** : Part ****' ); ?></span>
@@ -88,6 +88,12 @@ function ssam_uninstall_hook_sns () {
 if ( function_exists( 'ssam_register_uninstall_hook' ) ) {
 	register_uninstall_hook( __FILE__, 'ssam_uninstall_hook_sns' );
 }
+
+//Output
+function ssam_account_arrangement () {
+	return array( get_option( 'facebook' ),get_option( 'twitter' ), get_option( 'instagram' ), get_option( 'youtube' ) );
+}
+add_action( 'admin_footer', 'ssam_account' );
 
 //Output
 function ssam_account () {
