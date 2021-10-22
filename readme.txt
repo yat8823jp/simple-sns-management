@@ -1,4 +1,4 @@
-=== Sinmple SNS Account Management ===
+=== Simple SNS Account Management ===
 Contributors: yat8823jp
 Tags: SNS
 Requires at least: 5.8

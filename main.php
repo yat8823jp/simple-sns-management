@@ -1,6 +1,6 @@
 <?php
 /*
- * Plugin Name: Sinmple SNS Account Management
+ * Plugin Name: Simple SNS Account Management
  * Plugin URI:
  * Description: A simple plugin that just manages your SNS account
  * Version: 1.1.1
