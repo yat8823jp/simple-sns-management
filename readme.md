@@ -29,20 +29,19 @@ SNSのアカウントを入力して保存
 
 ## Changelog
 
-= 1.1.1 =
+= 1.1.2 =
+* 2021-10-23 typing error fix
 
+= 1.1.1 =
 * 2021-10-23 readme bug fix
 
 = 1.1.0 =
-
 * 2021-10-07 add ssam_account_arrangement()
 
 = 1.0.1 =
-
 * 2021-10-02 Typing error correction
 
 = 1.0.0 =
-
 * 2021-09-29 First release
 
 ## 
