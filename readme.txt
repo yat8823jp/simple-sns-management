@@ -3,7 +3,7 @@ Contributors: yat8823jp
 Tags: SNS
 Requires at least: 5.8
 Tested up to: 5.8.1
-Stable tag: 1.1.0
+Stable tag: 1.1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -18,10 +18,14 @@ Account ID and URL can be obtained on the front side.
 2. Activate the plugin through the 'Plugins' menu in WordPress.
 3. Enter your SNS account and save.
 4. Describe the following in the template file of the theme you want to display.
+ - ssam_account_arrang(); : You can call each SNS account in an array.
  - ssam_account(); : You can call each SNS account in an array.
- - ssam_view(); : You can call the URL of each SNS in an array.
+ - ssam_url(); : You can call the URL of each SNS in an array.
 
 == Changelog ==
+
+= 1.1.1 =
+* 2021-10-23 readme bug fix
 
 = 1.1.0 =
 * 2021-10-07 add ssam_account_arrangement()
