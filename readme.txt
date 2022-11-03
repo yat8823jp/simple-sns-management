@@ -2,7 +2,7 @@
 Contributors: yat8823jp
 Tags: SNS
 Requires at least: 5.8
-Tested up to: 6.0.0
+Tested up to: 6.1.0
 Stable tag: 1.1.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -23,6 +23,9 @@ Account ID and URL can be obtained on the front side.
  - ssam_url(); : You can call the URL of each SNS in an array.
 
 == Changelog ==
+
+= 1.1.6 =
+* 2022-11-03 Tested up 6.1.0
 
 = 1.1.5 =
 * 2022-05-25 Tested up 6.0.0
