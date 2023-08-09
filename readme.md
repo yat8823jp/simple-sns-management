@@ -29,6 +29,9 @@ SNSのアカウントを入力して保存
 
 ## Changelog
 
+= 1.2.0 =
+* 2023-08-9 Add X to Twitter notation.
+
 = 1.1.8 =
 * 2023-03-30 Tested up 6.2.2
 

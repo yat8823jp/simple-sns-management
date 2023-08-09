@@ -21,7 +21,7 @@ add_action('admin_menu', 'ssam_menu');
 //Optional item registration
 function ssam_register_sns_settings() {
 	register_setting( 'sns', 'facebook' );
-	register_setting( 'sns', 'twitter' );
+	register_setting( 'sns', 'X(twitter)' );
 	register_setting( 'sns', 'instagram' );
 	register_setting( 'sns', 'youtube' );
 }
@@ -48,11 +48,11 @@ function ssam_regist () {
 					</td>
 				</tr>
 				<tr valign="top">
-					<th scope="row"><label for="twitter">Twitter<br>
-					<span style="color: #6e6e6e; font-size: 12px;">※ <?php _e( 'Please enter your Twitter ID.', 'ssam_register_sns_settings' ); ?> </span></label></th>
+					<th scope="row"><label for="x_twitter">Twitter<br>
+					<span style="color: #6e6e6e; font-size: 12px;">※ <?php _e( 'Please enter your X(Twitter) ID.', 'ssam_register_sns_settings' ); ?> </span></label></th>
 					<td>
-						<input type="text" name="twitter" value="<?php echo esc_attr( get_option( 'twitter' ) ); ?>">
-						<span style="color: #333;"><?php _e( 'example）hhttps://twitter.com/**** : Part ****' ); ?></span>
+						<input type="text" name="x_twitter" value="<?php echo esc_attr( get_option( 'twitter' ) ); ?>">
+						<span style="color: #333;"><?php _e( 'example）https://twitter.com/**** : Part ****' ); ?></span>
 					</td>
 				</tr>
 				<tr valign="top">
